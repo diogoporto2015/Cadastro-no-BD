@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conteudo="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" conteudo="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <div class="conteudos">
+        <div class="conteudo primeiro-conteudo">
+            <div class="primeira-coluna">
+                <h2 class="title title-primeiro">Seja Bem Vindo!</h2>
+                <p class="description description-primeiro">Conecte-se ao Sistema</p>
+                <p class="description description-primeiro">com sua Informação Pessoal</p>
+                <button id="entrar" class="btn btn-primeiro">ENTRAR</button>
+            </div>
+            <div class="segunda-coluna">
+                <img class=imglogin src="img/medimagem2.png" alt="">
+                <h2 class="title-segundo">CLÍNICA SAÚDE</h2>
+                <p class="description description-segundo">DIAGNÓSTICO POR IMAGEM</p>
+                <h4 class="c"><p>&copy; Clínica MedImagem </p></h4>
+            </div>
+        </div>
+        <div class="conteudo segundo-conteudo">
+                <div class="primeira-coluna">
+                    <h2 class="title title-primeiro">ENTRAR NO SISTEMA</h2>
+                    <p class="description description-primeiro">Logar com sua informação Pessoal</p>
+                    <p class="description description-primeiro">E Comece a Utilizar o Sistema!</p>
+                    <button id="voltar" class="btn btn-primeiro">VOLTAR</button>
+                </div>
+                <div class="segunda-coluna">
+                    <img class=imglogin2 src="img/medimagem2.png" alt="">
+                    <h2 class="title title-segundo">ACESSAR AO SISTEMA</h2>
+                    <p class="description description-segundo">Utilize seu Login de Cadastro</p>
+                    <form class="form" action="" method="POST">
+                        
+                        <label class= "label-input" for="">
+                            <i class="fas fa-user icone-mod"></i>
+                            <input type="nome" name="nome" placeholder=" Digite o Usuário" required>
+                        </label>
+                        
+                        <label class= "label-input" for="">
+                            <i class="fas fa-lock icone-mod"></i>
+                            <input type="password" name="senha" placeholder="Digite sua Senha" requiredS>
+                        </label>                      
+                        <button id="enviar" class="btn btn-segundo">ACESSAR</button>
+                    </form>
+                    
+                        
+                </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
